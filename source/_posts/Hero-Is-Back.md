@@ -1,7 +1,11 @@
 ---
 title: Hero Is Back
 date: 2016-08-05 14:15:00
-tags: 随笔
+categories: 杂谈
+tags: 
+- 生活
+- 留学
+- 澳洲
 ---
 周三打球的时候,师傅问我假期是不是又没回去.
 
