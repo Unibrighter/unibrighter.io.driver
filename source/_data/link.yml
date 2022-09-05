@@ -1,0 +1,15 @@
+- class_name: Fellow Travellers.
+  class_desc: Companionship along the road.
+  link_list:
+    - name: Mox
+      link: https://www.mocusez.site/
+      avatar: https://www.mocusez.site/img/head.jpg
+      descr: 第一个交换友链的朋友.
+
+- class_name: More About Me
+  class_desc: My work, my CV, my profile.
+  link_list:
+    - name: Linkedin
+      link: https://au.linkedin.com/in/kunliang-wu
+      avatar: https://brand.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg
+      descr: My linkedin profile

@@ -1,12 +1,23 @@
 ---
 title: 微信公众号索引历史文章并打印为PDF
 date: 2021-06-28 14:45:44
-categories: 技术
+categories: Tech
 tags: 
 - Python
-- 抓包
-- 微信
+- Craft
+- DIY
+- WeChat
+- Proxy Intercepting
 ---
+
+- [缘起](#缘起)
+- [思路](#思路)
+  - [整体思路](#整体思路)
+- [实践记录](#实践记录)
+  - [前人记录探究](#前人记录探究)
+  - [实践](#实践)
+- [结论/反思/问题](#结论反思问题)
+- [Git Repo](#git-repo)
 
 ## 缘起
 微信公众号改版后,mobile客户端不再提供历史文章合集页面,翻看历史文章很不方便:
@@ -83,7 +94,7 @@ tags:
 - 对于我们抓取特定公众号的历史文章来说,只需要替换掉offset这个参数,并在token过期或失效时刷新获取referer,cookie以及请求地址即可
 
 - 这样参考原始请求,修改参数,用代码构造一个完整的新请求
-![demo_code.jpg](/assets/blogImg/微信公众号索引历史文章并打印为PDF/demo_code.jpg)
+![demo_code.jpg](demo_code.jpg)
 
 - 根据response的index,循环构造新请求,直至`has_next=0`
 
@@ -113,7 +124,7 @@ https://zhuanlan.zhihu.com/p/108208151,文章内也提到了其他的爬取方�
 6. 在做web端的邮件应用,Isotope 通过localhost(或者在Docker上部署)去做imap协议的邮箱.这样就不用装local app了,并且对于像邮件这样有协议标准的应用来说,可以"一次部署,内网到处使用"
 
 ---
-## 5. Git Repo
+## Git Repo
 抽空fork后新建commit并提交PR
 
 
