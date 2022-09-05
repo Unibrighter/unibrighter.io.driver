@@ -107,4 +107,4 @@ theme: butterfly
 deploy:
   type: git
   repo: git@github.com:Unibrighter/unibrighter.github.io.git
-  branch: masterd
+  branch: master
